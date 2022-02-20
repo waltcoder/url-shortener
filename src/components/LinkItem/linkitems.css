@@ -1,0 +1,97 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.App__link {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: grid;
+	place-items: center;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+#modalContainer {
+	background: #ffffff;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+
+	/* width: min(90vw, 1000px); */
+	width: min(90vw, 640px);
+
+	padding: 3rem 4rem;
+}
+
+.modal > div:first-child {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0 0 0.3rem 0;
+}
+
+.modal > div:first-child > span {
+	color: #161616;
+	font-size: clamp(1rem, 1rem + 3vw, 3rem);
+	font-weight: 500;
+}
+
+.btnFiX {
+	cursor: pointer;
+	background: none;
+	border: none;
+	box-shadow: none;
+}
+
+small {
+	color: #a7a7a7;
+	font-size: clamp(0.8rem, 1rem + 3rem, 1.7rem);
+	font-weight: 400;
+	text-align: initial;
+	display: block;
+}
+
+.btnLink {
+	font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+		"Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+		sans-serif;
+	/* font-size: 2rem; */
+	font-size: clamp(0.8rem, 1rem + 3rem, 1.7rem);
+	background: #172742;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	color: #ffffff;
+	border: none;
+	box-shadow: none;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	font-weight: 400;
+
+	margin: 2rem 0 0 0;
+	width: 100%;
+	padding: 2rem 1.4rem;
+
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+
+	cursor: pointer;
+}
+
+.fiCopy {
+	cursor: pointer;
+}
+
+@media screen and  (max-width: 640px ) {
+	html{
+		font-size: 50%;
+	}
+}

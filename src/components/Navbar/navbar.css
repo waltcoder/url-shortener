@@ -1,0 +1,39 @@
+#header__navbar {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
+.navbar {
+	display: flex;
+	justify-content: flex-end;
+	width: 100vw;
+	height: 15vh;
+
+	padding: 0 3rem 0 0rem;
+}
+
+.menu {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+}
+
+#links {
+	background: #ffffff;
+	color: #151515;
+	padding: 1rem 4.5rem;
+	text-decoration: none;
+
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+
+	font-weight: 500;
+}
+
+.links {
+	text-decoration: none;
+}
