@@ -43,7 +43,7 @@ export default function Home() {
 					stroke-linejoin="round"
 				/>
 			</svg>
-			<h2 className='App__home-title'>URL Shortener</h2>
+			<h2 className="App__home-title">URL Shortener</h2>
 			<p>Cole seu link para encurtar</p>
 			<form>
 				<div className="inputControl">
@@ -57,8 +57,8 @@ export default function Home() {
 						name="pasteYourLink"
 						id="pasteYourLink"
 						placeholder="Cole seu link aqui ..."
-						inputMode='url'
-						enterKeyHint='done'
+						inputMode="url"
+						enterKeyHint="done"
 						value={link}
 						onChange={(e) => setLink(e.target.value)}
 					/>

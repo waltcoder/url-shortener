@@ -31,7 +31,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	margin: 0 0 0.3rem 0;
+	/* margin: 0 0 0.3rem 0; */
 }
 
 .modal > div:first-child > span {
@@ -59,7 +59,6 @@ small {
 	font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
 		"Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
 		sans-serif;
-	/* font-size: 2rem; */
 	font-size: clamp(0.8rem, 1rem + 3rem, 1.7rem);
 	background: #172742;
 	-webkit-border-radius: 7px;
@@ -93,5 +92,8 @@ small {
 @media screen and  (max-width: 640px ) {
 	html{
 		font-size: 50%;
+	}
+	.btnLink{
+		padding: 1.6rem 1rem;
 	}
 }
